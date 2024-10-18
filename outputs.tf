@@ -9,7 +9,7 @@ output "instance_private_ip" {
 }
 
 output "vpc_id" {
-  description = "The ID of the VPC"
+  description = "The ID of the VPC Network"
   value       = aws_vpc.main.id
 }
 
