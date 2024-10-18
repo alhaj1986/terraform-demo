@@ -26,5 +26,5 @@ variable "ami_id" {
 
 variable "instance_name" {
   description = "Name tag for the EC2 instance"
-  default     = "BCT-Terraform-Cloud-Instance-18-10-24"
+  default     = "BCT-Terraform-Cloud-Instance"
 }
